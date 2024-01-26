@@ -1,0 +1,39 @@
+/* styles/film.css */
+.film {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s; /* Добавляем transition для плавного эффекта */
+}
+
+
+
+.film img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.film h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.film p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+.film {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .film:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
